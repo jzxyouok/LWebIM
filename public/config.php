@@ -1,13 +1,13 @@
 <?php
 $config['server'] = array(
     //监听的HOST
-    'host'   => '0.0.0.0',
+    'host'   => '139.196.255.181',
     //监听的端口
     'port'   => '9503',
-    //WebSocket的URL地址，供浏览器使用的
-    'url'    => 'ws://im.swoole.com:9503',
+    // WebSocket的URL地址，供浏览器使用的
+    'url'    => 'ws://im.txflw888.com:9503',
     //用于Comet跨域，必须设置为html所在的URL
-    'origin' => 'http://im.swoole.com:8888',
+    'origin' => 'http://im.txflw888.com/:8888',
 );
 
 $config['swoole'] = array(
