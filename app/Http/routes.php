@@ -15,3 +15,5 @@ Route::get('/', 'IndexController@index');
 
 Route::post('/main', 'IndexController@showMain');
 
+Route::get('/test', 'IndexController@test');
+

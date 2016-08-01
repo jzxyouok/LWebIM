@@ -18,4 +18,8 @@ class IndexController extends Controller
         $input = json_encode(Input::all());
         return view('layout.main')->with('input', $input);
     }
+
+    public function test() {
+        return view('layout.test');
+    }
 }
